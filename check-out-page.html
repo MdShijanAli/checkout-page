@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Out Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="bg-[#F2F3F8]">
+    <div class="container mx-auto py-20">
+      <div class="xl:grid grid-cols-3 gap-5">
+        <div class="bg-white rounded px-5 py-5">
+          <h1 class="text-xl border-b-[1px] pb-5">Customer Information</h1>
+         
+          <div class="mt-5">
+            <form action="">
+              <div class="md:flex gap-5">
+                <div class="w-full">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" placeholder="First Name*" class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+                </div>
+                <div class="w-full">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" placeholder="Last Name*" class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+                </div>
+
+              </div>
+              
+              <div class="">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address*" class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+              </div>
+              <div class="">
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" placeholder="Telephone*" class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+              </div>
+              <div class="">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="E-mail*" class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+              </div>
+
+              <div class="md:flex gap-5 w-full">
+                <div class="w-full">
+                  <label for="city">City</label>
+                  <input type="text" id="city"  class="border border-black text-sm py-2 px-2 mt-1 rounded w-full my-5">
+                </div>
+                <div class="w-full">
+                  <label class="block " for="selectOption">
+                    Zone
+                  </label>
+                  <div class="relative">
+                    <select id="selectOption" name="selectOption" class="block text-sm appearance-none w-full bg-white border border-black py-2 px-2 mt-1 rounded">
+                      <option value="option1">Dhaka City</option>
+                      <option value="option2">Dinajpur City</option>
+                      <option value="option3">Rangpur City</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 7l3-3 3 3m0 6l-3 3-3-3"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label for="comment">Comment</label>
+                <textarea id="comment"  class="border border-black text-sm py-2 px-2 mt-1 rounded w-full mt-1" cols="30" rows="4"></textarea>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="col-span-2 relative">
+          <div class="bg-white rounded px-5 py-5 mb-5">
+               <h1 class="text-xl border-b-[1px] pb-5">Order Overview</h1>
+
+
+               <div class=" max-h-[11rem] overflow-y-auto">
+                <table class="min-w-full table-auto">
+                  <thead>
+                    <tr class="text-left">
+                      <th class=" px-2 md:px-0 py-4 border-b">Product Name</th>
+                      <th class=" px-2 md:px-0 py-4 border-b">Price</th>
+                      <th class=" px-2 md:px-0 py-4 border-b">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr>
+                      <td class=" px-2 md:px-0 py-4 border-b text-[#FE6246]">Enter E-MO-A01 19-inch HD LED Backlit Monitor</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000 (1)</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</td>
+                     
+                    </tr>
+                    <tr>
+                      <td class=" px-2 md:px-0 py-4 border-b text-[#FE6246]">Enter E-MO-A01 19-inch HD LED Backlit Monitor</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000 (1)</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</td>
+                     
+                    </tr>
+                    <tr>
+                      <td class=" px-2 md:px-0 py-4 border-b text-[#FE6246]">Enter E-MO-A01 19-inch HD LED Backlit Monitor</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000 (1)</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</td>
+                     
+                    </tr>
+                    <tr>
+                      <td class=" px-2 md:px-0 py-4 border-b text-[#FE6246]">Enter E-MO-A01 19-inch HD LED Backlit Monitor</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000 (1)</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</td>
+                     
+                    </tr>
+                    <tr>
+                      <td class=" px-2 md:px-0 py-4 border-b text-[#FE6246]">Enter E-MO-A01 19-inch HD LED Backlit Monitor</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000 (1)</td>
+                      <td class=" px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</td>
+                     
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+
+
+
+              <div class="md:flex ">
+                <div class="md:w-1/2"></div>
+                <div class="overflow-x-auto  md:w-1/2 w-full">
+                  <table class="min-w-full table-auto">
+                    <thead>
+                      <tr class=" ">
+                        <th class="text-right py-4 border-b col-span-2">Sub-Total :</th>
+                        <th class="px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20000</th>
+                      </tr>
+                      <tr class=" ">
+                        <th class="text-right py-4 border-b col-span-2">Home Delivery :</th>
+                        <th class="px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 60</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-right py-4 border-b col-span-2">Total :</th>
+                        <th class="px-2 md:px-0 py-4 border-b whitespace-nowrap">TK. 1,20060</th>
+                      </tr>
+                    </thead>
+                 
+                  </table>
+                </div>
+              </div>
+              
+                
+
+                
+            </div>
+            
+
+
+          <div class="md:flex gap-5 ">
+            <div class="bg-white rounded px-5  py-4 w-full">
+              <h1 class="text-xl border-b-[1px] pb-3">Payment Method</h1>
+
+
+              <div class="py-4">
+                <label class="block text-gray-700 font-bold mb-2">
+                 Select a payment method
+                </label>
+                <div class="">
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option1">
+                    <span class="select-none">Cash on Delivery</span>
+                  </label>
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option2">
+                    <span class="select-none">POS on Delivery</span>
+                  </label>
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option3">
+                    <span class="select-none">Online Payment</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="bg-white rounded px-5  py-4 w-full">
+              <h1 class="text-xl border-b-[1px] pb-3">Delivery Method</h1>
+
+              
+
+              <div class="my-4">
+                <label class="block text-gray-700 font-bold mb-2">
+                 Delivery method
+                </label>
+                <div class="mt-2">
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option1">
+                    <span class=" select-none">Home Delivery - TK. 60</span>
+                  </label>
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option2">
+                    <span class=" select-none">Store Pickup - TK. 0</span>
+                  </label>
+                  <label class="flex gap-2 items-center">
+                    <input type="radio" class="form-radio text-indigo-600" name="option" value="option3">
+                    <span class=" select-none">Request Express - Charge Applicable</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-10 xl:flex items-center justify-between xl:mx-0 mx-5">
+        <div>
+          <label class="flex gap-2 items-center">
+            <input type="checkbox" class="form-checkbox text-indigo-600">
+            <p class=" text-sm md:text-lg select-none">I have read and agree to the <a class="underline text-[#FE6246] " href="#">Terms and Conditions</a> , <a class="underline text-[#FE6246] " href="#">Privacy Policy</a> and <a class="underline text-[#FE6246] " href="#">Refund and Return Policy</a></p>
+          </label>
+        </div>
+        <div class="text-center my-auto">
+          <button type="submit" class="bg-[#FE6246] mt-10 md:mt-0 text-white px-6 rounded font-semibold py-3">Confirm Order</button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</body>
+</html>
